@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mobile-web-rem/a.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mobile-web-rem/testrem.html" afterDir="false" />
+    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="rem布局基础">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -58,8 +56,16 @@
       <workItem from="1607324990524" duration="4751000" />
       <workItem from="1607391364748" duration="4508000" />
       <workItem from="1607396045112" duration="178000" />
-      <workItem from="1607396564421" duration="1146000" />
+      <workItem from="1607396564421" duration="1269000" />
     </task>
+    <task id="LOCAL-00001" summary="rem布局基础">
+      <created>1607397794291</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607397794291</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +83,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rem布局基础" />
+    <option name="LAST_COMMIT_MESSAGE" value="rem布局基础" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="620" y="316" key="EditFileWatcherDialog" timestamp="1607397102818">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -90,5 +100,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607397103476" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607397796354">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607397796354" />
   </component>
 </project>
