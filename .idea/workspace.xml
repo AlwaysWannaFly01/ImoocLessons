@@ -11,6 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="rem布局基础">
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/shims-vue.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -38,12 +51,42 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="G:\AwyPrivate\ImoocLessons\Vue3Lesson\vue3-test1\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.serve (1)">
+    <configuration name="serve (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Vue3Lesson/vue3-test/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/Vue3Lesson/vue3-test1/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve (1)" />
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +100,8 @@
       <workItem from="1607391364748" duration="4508000" />
       <workItem from="1607396045112" duration="178000" />
       <workItem from="1607396564421" duration="1269000" />
+      <workItem from="1607406982069" duration="5331000" />
+      <workItem from="1607416079122" duration="1907000" />
     </task>
     <task id="LOCAL-00001" summary="rem布局基础">
       <created>1607397794291</created>
@@ -84,6 +129,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rem布局基础" />
     <option name="LAST_COMMIT_MESSAGE" value="rem布局基础" />
   </component>
@@ -96,6 +142,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607397101575" />
+    <state width="1899" height="361" key="GridCell.Tab.0.bottom" timestamp="1607417987176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
+    <state width="1899" height="361" key="GridCell.Tab.0.center" timestamp="1607417987176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
+    <state width="1899" height="361" key="GridCell.Tab.0.left" timestamp="1607417987176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
+    <state width="1899" height="361" key="GridCell.Tab.0.right" timestamp="1607417987176">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
     <state x="463" y="166" key="SettingsEditor" timestamp="1607397103476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
