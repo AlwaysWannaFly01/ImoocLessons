@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestRem</title>
+    <!--使用媒体查询需要加这段标签-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+        html {
+            font-size: 17px;
+        }
+
+        .box {
+            width: 10rem;
+            height: 10rem;
+            background-color: salmon;
+        }
+
+        .text {
+            color: #fff;
+            font-size: 16px;
+        }
+
+        /*@media screen and (max-width: 360px) and (min-width: 321px) {*/
+        /*    html {*/
+        /*        font-size: 20px;*/
+        /*    }*/
+        /*}*/
+
+        /*@media screen and (max-width: 320px) {*/
+        /*    html {*/
+        /*        font-size: 24px;*/
+        /*    }*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="box">
+    <p class="text">hello rem</p>
+</div>
+<script type="text/javascript">
+    //获取视窗宽度
+    let htmlWidth = document.documentElement.clientWidth || document.body.clientWidth;
+    console.log(htmlWidth)
+
+    let htmlDom = document.getElementsByTagName('html')[0];
+    console.log(htmlDom)
+    htmlDom.style.fontSize = htmlWidth / 10 + 'px';
+
+
+</script>
+</body>
+</html>
