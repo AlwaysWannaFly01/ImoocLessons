@@ -10,22 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="rem布局基础">
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/.browserslistrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/shims-vue.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/yarn.lock" afterDir="false" />
+    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="初始化vue3项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/HelloWorld.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +46,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
-    <property name="ts.external.directory.path" value="G:\AwyPrivate\ImoocLessons\Vue3Lesson\vue3-test1\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="G:\AwyPrivate\ImoocLessons\Vue3Lesson\vue3-test\node_modules\typescript\lib" />
   </component>
   <component name="RunManager" selected="npm.serve (1)">
     <configuration name="serve (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -102,6 +90,8 @@
       <workItem from="1607396564421" duration="1269000" />
       <workItem from="1607406982069" duration="5331000" />
       <workItem from="1607416079122" duration="1907000" />
+      <workItem from="1607421499209" duration="285000" />
+      <workItem from="1607477749142" duration="5059000" />
     </task>
     <task id="LOCAL-00001" summary="rem布局基础">
       <created>1607397794291</created>
@@ -110,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607397794291</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始化vue3项目">
+      <created>1607421649745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607421649745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +128,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rem布局基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="rem布局基础" />
+    <MESSAGE value="初始化vue3项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化vue3项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="316" key="EditFileWatcherDialog" timestamp="1607397102818">
@@ -142,29 +140,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607397101575" />
-    <state width="1899" height="361" key="GridCell.Tab.0.bottom" timestamp="1607417987176">
+    <state width="1899" height="255" key="GridCell.Tab.0.bottom" timestamp="1607478066738">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
-    <state width="1899" height="361" key="GridCell.Tab.0.center" timestamp="1607417987176">
+    <state width="1899" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066738" />
+    <state width="1899" height="255" key="GridCell.Tab.0.center" timestamp="1607478066737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="361" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
-    <state width="1899" height="361" key="GridCell.Tab.0.left" timestamp="1607417987176">
+    <state width="1899" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066737" />
+    <state width="1899" height="255" key="GridCell.Tab.0.left" timestamp="1607478066737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="361" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
-    <state width="1899" height="361" key="GridCell.Tab.0.right" timestamp="1607417987176">
+    <state width="1899" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066737" />
+    <state width="1899" height="255" key="GridCell.Tab.0.right" timestamp="1607478066737">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="361" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607417987176" />
+    <state width="1899" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066737" />
     <state x="463" y="166" key="SettingsEditor" timestamp="1607397103476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607397103476" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607397796354">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607421692870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607397796354" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607421692870" />
   </component>
 </project>
