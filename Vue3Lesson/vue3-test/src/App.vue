@@ -6,6 +6,8 @@
         </button>
         <p>选择了[{{ selectedPeron }}]</p>
     </div>
+    <div v-if="loading">loading...</div>
+    <img :src="result.imgUrl" v-if="loaded">
 </template>
 
 <script lang="ts">
@@ -17,8 +19,10 @@ import {
     onBeforeUpdate,
     onUpdated,
     onRenderTracked,
-    onRenderTriggered
+    onRenderTriggered,
+    watch
 } from 'vue';
+import userUrlAxios from "@/hooks/useURLAxios";
 
 interface DataProps {
     people: string[];
@@ -74,8 +78,13 @@ export default {
 
         const refData = toRefs(data);
 
+        const {result, loading, loaded} = userUrlAxios('https://apiblog.jspang.com/default/getGirl');
+
         return {
-            ...refData
+            ...refData,
+            result,
+            loading,
+            loaded
         }
     }
 };

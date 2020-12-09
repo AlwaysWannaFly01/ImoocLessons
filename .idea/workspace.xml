@@ -10,10 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="初始化vue3项目">
+    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="vue3中的生命周期钩子函数">
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/hooks/useURLAxios.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/HelloWorld.vue" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
       <workItem from="1607406982069" duration="5331000" />
       <workItem from="1607416079122" duration="1907000" />
       <workItem from="1607421499209" duration="285000" />
-      <workItem from="1607477749142" duration="5059000" />
+      <workItem from="1607477749142" duration="10232000" />
     </task>
     <task id="LOCAL-00001" summary="rem布局基础">
       <created>1607397794291</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607421649745</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="vue3中的生命周期钩子函数">
+      <created>1607483253802</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607483253802</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,7 +137,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="rem布局基础" />
     <MESSAGE value="初始化vue3项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化vue3项目" />
+    <MESSAGE value="vue3中的生命周期钩子函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="vue3中的生命周期钩子函数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="316" key="EditFileWatcherDialog" timestamp="1607397102818">
@@ -140,29 +149,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607397101575" />
-    <state width="1899" height="255" key="GridCell.Tab.0.bottom" timestamp="1607478066738">
+    <state width="1899" height="237" key="GridCell.Tab.0.bottom" timestamp="1607487312629">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="255" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066738" />
-    <state width="1899" height="255" key="GridCell.Tab.0.center" timestamp="1607478066737">
+    <state width="1899" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607487312629" />
+    <state width="1899" height="237" key="GridCell.Tab.0.center" timestamp="1607487312628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="255" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066737" />
-    <state width="1899" height="255" key="GridCell.Tab.0.left" timestamp="1607478066737">
+    <state width="1899" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607487312628" />
+    <state width="1899" height="237" key="GridCell.Tab.0.left" timestamp="1607487312628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="255" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066737" />
-    <state width="1899" height="255" key="GridCell.Tab.0.right" timestamp="1607478066737">
+    <state width="1899" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607487312628" />
+    <state width="1899" height="237" key="GridCell.Tab.0.right" timestamp="1607487312628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="255" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607478066737" />
+    <state width="1899" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607487312628" />
     <state x="463" y="166" key="SettingsEditor" timestamp="1607397103476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607397103476" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607421692870">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607483255918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607421692870" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607483255918" />
   </component>
 </project>
