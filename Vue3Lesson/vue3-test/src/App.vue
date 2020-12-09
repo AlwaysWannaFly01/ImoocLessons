@@ -8,6 +8,7 @@
     </div>
     <div v-if="loading">loading...</div>
     <img :src="result.imgUrl" v-if="loaded">
+    <Modal></Modal>
 </template>
 
 <script lang="ts">
@@ -23,6 +24,7 @@ import {
     watch
 } from 'vue';
 import userUrlAxios from "@/hooks/useURLAxios";
+import Modal from './components/Modal.vue';
 
 interface DataProps {
     people: string[];
@@ -32,6 +34,9 @@ interface DataProps {
 
 export default {
     name: 'App',
+    components: {
+        Modal
+    },
     setup() {
         console.log('1-开始创建组件---setup()');
         const data: DataProps = reactive({
