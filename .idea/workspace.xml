@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="模块化案例">
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/Modal.vue" afterDir="false" />
+    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="teleport组件的使用">
+      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/AsyncShow.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +92,7 @@
       <workItem from="1607406982069" duration="5331000" />
       <workItem from="1607416079122" duration="1907000" />
       <workItem from="1607421499209" duration="285000" />
-      <workItem from="1607477749142" duration="11818000" />
+      <workItem from="1607477749142" duration="14365000" />
     </task>
     <task id="LOCAL-00001" summary="rem布局基础">
       <created>1607397794291</created>
@@ -123,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607494050663</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="teleport组件的使用">
+      <created>1607495412661</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607495412661</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +153,8 @@
     <MESSAGE value="初始化vue3项目" />
     <MESSAGE value="vue3中的生命周期钩子函数" />
     <MESSAGE value="模块化案例" />
-    <option name="LAST_COMMIT_MESSAGE" value="模块化案例" />
+    <MESSAGE value="teleport组件的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="teleport组件的使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="316" key="EditFileWatcherDialog" timestamp="1607397102818">
@@ -178,9 +185,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607397103476" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607494058261">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607495431336">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607494058261" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607495431336" />
   </component>
 </project>

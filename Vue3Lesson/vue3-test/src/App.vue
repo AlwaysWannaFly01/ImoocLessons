@@ -7,8 +7,16 @@
         <p>选择了[{{ selectedPeron }}]</p>
     </div>
     <div v-if="loading">loading...</div>
-    <img :src="result.imgUrl" v-if="loaded">
+    <!--    <img :src="result.imgUrl" v-if="loaded">-->
     <Modal></Modal>
+    <Suspense>
+        <template #default>
+            <AsyncShow/>
+        </template>
+        <template #fallback>
+            <h1>loading...</h1>
+        </template>
+    </Suspense>
 </template>
 
 <script lang="ts">
@@ -21,10 +29,12 @@ import {
     onUpdated,
     onRenderTracked,
     onRenderTriggered,
-    watch
+    watch,
+    onErrorCaptured
 } from 'vue';
 import userUrlAxios from "@/hooks/useURLAxios";
-import Modal from './components/Modal.vue';
+import Modal from '@/components/Modal.vue';
+import AsyncShow from "@/components/AsyncShow.vue";
 
 interface DataProps {
     people: string[];
@@ -35,7 +45,8 @@ interface DataProps {
 export default {
     name: 'App',
     components: {
-        Modal
+        Modal,
+        AsyncShow
     },
     setup() {
         console.log('1-开始创建组件---setup()');
@@ -73,6 +84,11 @@ export default {
             console.log(event)
         })
 
+        onErrorCaptured((error) => {
+            //捕获接口出错的异常
+            console.log('error ==>', error)
+            return true
+        })
         //onBeforeUnmount()组件卸载之前执行
         //onUnmounted()组件卸载
 
