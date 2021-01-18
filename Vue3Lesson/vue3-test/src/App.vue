@@ -7,7 +7,7 @@
         <p>选择了[{{ selectedPeron }}]</p>
     </div>
     <div v-if="loading">loading...</div>
-    <!--    <img :src="result.imgUrl" v-if="loaded">-->
+        <img :src="result.imgUrl" v-if="loaded">
     <Modal></Modal>
     <Suspense>
         <template #default>

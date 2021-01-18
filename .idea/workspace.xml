@@ -10,9 +10,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="teleport组件的使用">
-      <change afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/components/AsyncShow.vue" afterDir="false" />
+    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="Suspense异步组件的使用">
+      <change afterPath="$PROJECT_DIR$/v3demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v3demo/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,12 +54,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/Awy_Tools/webcopy下来的网站/睿健" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="G:\AwyPrivate\ImoocLessons\Vue3Lesson\vue3-test\node_modules\typescript\lib" />
   </component>
-  <component name="RunManager" selected="npm.serve (1)">
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/v3demo/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="serve (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/Vue3Lesson/vue3-test/package.json" />
       <command value="run" />
@@ -72,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.dev" />
         <item itemvalue="npm.serve (1)" />
         <item itemvalue="npm.serve" />
       </list>
@@ -92,7 +113,10 @@
       <workItem from="1607406982069" duration="5331000" />
       <workItem from="1607416079122" duration="1907000" />
       <workItem from="1607421499209" duration="285000" />
-      <workItem from="1607477749142" duration="14365000" />
+      <workItem from="1607477749142" duration="15261000" />
+      <workItem from="1607565886944" duration="20000" />
+      <workItem from="1607565974275" duration="177000" />
+      <workItem from="1610951839798" duration="4172000" />
     </task>
     <task id="LOCAL-00001" summary="rem布局基础">
       <created>1607397794291</created>
@@ -129,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607495412661</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Suspense异步组件的使用">
+      <created>1607498131110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607498131110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,40 +185,41 @@
     <MESSAGE value="vue3中的生命周期钩子函数" />
     <MESSAGE value="模块化案例" />
     <MESSAGE value="teleport组件的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="teleport组件的使用" />
+    <MESSAGE value="Suspense异步组件的使用" />
+    <option name="LAST_COMMIT_MESSAGE" value="Suspense异步组件的使用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="316" key="EditFileWatcherDialog" timestamp="1607397102818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="620" y="316" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607397102818" />
-    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1607397101575">
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1607565902321">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607397101575" />
-    <state width="1899" height="278" key="GridCell.Tab.0.bottom" timestamp="1607494663906">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1607565902321" />
+    <state width="1899" height="307" key="GridCell.Tab.0.bottom" timestamp="1610952610730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607494663906" />
-    <state width="1899" height="278" key="GridCell.Tab.0.center" timestamp="1607494663906">
+    <state width="1899" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610952610730" />
+    <state width="1899" height="307" key="GridCell.Tab.0.center" timestamp="1610952610729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607494663906" />
-    <state width="1899" height="278" key="GridCell.Tab.0.left" timestamp="1607494663906">
+    <state width="1899" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610952610729" />
+    <state width="1899" height="307" key="GridCell.Tab.0.left" timestamp="1610952610729">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607494663906" />
-    <state width="1899" height="278" key="GridCell.Tab.0.right" timestamp="1607494663906">
+    <state width="1899" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610952610729" />
+    <state width="1899" height="307" key="GridCell.Tab.0.right" timestamp="1610952610730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607494663906" />
+    <state width="1899" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610952610730" />
     <state x="463" y="166" key="SettingsEditor" timestamp="1607397103476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607397103476" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607495431336">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607498132422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607495431336" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607498132422" />
   </component>
 </project>
