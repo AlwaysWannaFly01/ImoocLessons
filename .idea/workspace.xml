@@ -10,20 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="Suspense异步组件的使用">
-      <change afterPath="$PROJECT_DIR$/v3demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/src/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/src/components/HelloWorld.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/v3demo/src/main.js" afterDir="false" />
+    <list default="true" id="78da4264-c96c-4f70-8a62-2183f8e329f1" name="Default Changelist" comment="使用vite创建vue3项目">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/Vue3Lesson/vue3-test/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v3demo/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/v3demo/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +105,7 @@
       <workItem from="1607477749142" duration="15261000" />
       <workItem from="1607565886944" duration="20000" />
       <workItem from="1607565974275" duration="177000" />
-      <workItem from="1610951839798" duration="4172000" />
+      <workItem from="1610951839798" duration="11290000" />
     </task>
     <task id="LOCAL-00001" summary="rem布局基础">
       <created>1607397794291</created>
@@ -160,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607498131110</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="使用vite创建vue3项目">
+      <created>1610956063911</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610956063912</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +182,8 @@
     <MESSAGE value="模块化案例" />
     <MESSAGE value="teleport组件的使用" />
     <MESSAGE value="Suspense异步组件的使用" />
-    <option name="LAST_COMMIT_MESSAGE" value="Suspense异步组件的使用" />
+    <MESSAGE value="使用vite创建vue3项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用vite创建vue3项目" />
   </component>
   <component name="WindowStateProjectService">
     <state x="620" y="316" key="EditFileWatcherDialog" timestamp="1607397102818">
@@ -217,9 +214,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1607397103476" />
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1607498132422">
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1610956066089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607498132422" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610956066089" />
   </component>
 </project>
